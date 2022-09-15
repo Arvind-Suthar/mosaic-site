@@ -85,3 +85,302 @@ th, td{
     border-bottom: 1px solid rgb(194, 194, 194);
     text-align: left;
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100vw;
+        padding: 200px 50px 50px 50px;
+        color: var(--primary);
+    }
+
+.project-info h1 {
+    font-weight: 500;
+    margin: 0.5rem 0;
+    line-height: 0.7;
+    font-size: 48px;
+}
+
+.project-info h5 {
+    font-weight: 400;
+    font-size: var(--txt-md);
+    color: var(--secondary)
+}
+
+.project-info p {
+    color: var(--secondary);
+    padding-right: 0rem;
+    font-size: 20px;
+}
+
+.timeline-element {
+    padding: 1rem 3rem;
+    position: relative;
+}
+
+.timeline-element::before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background: var(--primary);
+    position: absolute;
+    left: 0px;
+}
+
+.timeline-element::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: var(--white);
+    border: 5px solid var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: -10px;
+}
+
+.timeline-element:first-child {
+    height: 5rem;
+}
+
+.timeline-element:first-child::before {
+    background: linear-gradient(to bottom, white, #121212);
+}
+
+.timeline-element:first-child::after {
+    display: none;
+}
+
+.timeline-element:last-child::before {
+    background: linear-gradient(to top, white, #121212);
+}
+
+.timeline-element h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.timeline-element p {
+    font-size: var(--txt-md);
+    padding: 1rem 0;
+}
+
+.specs {
+    padding: 3rem 0;
+}
+
+.specs h3 {
+    padding: 1.5rem 0;
+}
+
+.specs table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    text-align: left;
+}
+}
+@media screen and (max-width: 720px){
+    .container {
+        width: 100vw;
+        padding: 200px 50px 50px 50px;
+        color: var(--primary);
+    }
+
+.project-info h1 {
+    font-weight: 500;
+    margin: 0.5rem 0;
+    line-height: 0.7;
+    font-size: 48px;
+}
+
+.project-info h5 {
+    font-weight: 400;
+    font-size: var(--txt-md);
+    color: var(--secondary)
+}
+
+.project-info p {
+    color: var(--secondary);
+    padding-right: 0rem;
+    font-size: 20px;
+}
+
+.timeline-element {
+    padding: 1rem 3rem;
+    position: relative;
+}
+
+.timeline-element::before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background: var(--primary);
+    position: absolute;
+    left: 0px;
+}
+
+.timeline-element::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: var(--white);
+    border: 5px solid var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: -10px;
+}
+
+.timeline-element:first-child {
+    height: 5rem;
+}
+
+.timeline-element:first-child::before {
+    background: linear-gradient(to bottom, white, #121212);
+}
+
+.timeline-element:first-child::after {
+    display: none;
+}
+
+.timeline-element:last-child::before {
+    background: linear-gradient(to top, white, #121212);
+}
+
+.timeline-element h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.timeline-element p {
+    font-size: var(--txt-md);
+    padding: 1rem 0;
+}
+
+.specs {
+    padding: 3rem 0;
+}
+
+.specs h3 {
+    padding: 1.5rem 0;
+}
+
+.specs table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    text-align: left;
+}
+}
+   
+@media screen and (max-width: 540px){
+     .container {
+        width: 100vw;
+        padding: 200px 30px 50px 30px;
+        color: var(--primary);
+    }
+
+.project-info h1 {
+    font-weight: 500;
+    margin: 0.5rem 0;
+    line-height: 1;
+    font-size: 36px;
+}
+
+.project-info h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary)
+}
+
+.project-info p {
+    color: var(--secondary);
+    padding-right: 0rem;
+    font-size: 14px;
+}
+
+.timeline-element {
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.timeline-element::before {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: var(--primary);
+    position: absolute;
+    left: 0px;
+}
+
+.timeline-element::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: var(--white);
+    border: 3px solid var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: -5px;
+}
+
+.timeline-element:first-child {
+    height: 5rem;
+}
+
+.timeline-element:first-child::before {
+    background: linear-gradient(to bottom, white, #121212);
+}
+
+.timeline-element:first-child::after {
+    display: none;
+}
+
+.timeline-element:last-child::before {
+    background: linear-gradient(to top, white, #121212);
+}
+
+.timeline-element h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.timeline-element p {
+    font-size: 14px;
+    padding: 1rem 0;
+}
+
+.specs {
+    padding: 3rem 0;
+}
+
+.specs h3 {
+    padding: 1.5rem 0;
+}
+
+.specs table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    text-align: left;
+}
+}   
