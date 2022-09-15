@@ -1,0 +1,95 @@
+.container{
+    margin-top: 120px;
+    color: var(--primary);
+}
+.project-info h1{
+    font-weight: 500;
+    margin: 0.5rem 0;
+    line-height: 0.7;
+    font-size: 48px;
+}
+.project-info h5{
+    font-weight: 400;
+    font-size: var(--txt-md);
+    color: var(--secondary)
+}
+.project-info p{
+    color: var(--secondary);
+    padding: 2rem 0;
+    font-size: 20px;
+}
+
+.timeline-element{
+    padding: 1rem 3rem;
+    position: relative;
+}
+.timeline-element::before{
+    content: "";
+    width: 4px;
+    height: 100%;
+    background: var(--primary);
+    position: absolute;
+    left: 0px;
+}
+.timeline-element::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: var(--white);
+    border: 5px solid var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: -10px;
+}
+.timeline-element:first-child{
+    height: 5rem;
+}
+.timeline-element:first-child::before{
+    background: linear-gradient(to bottom, white, #121212);
+}
+.timeline-element:first-child::after{
+    display: none;
+}
+.timeline-element:last-child::before{
+    background: linear-gradient(to top, white, #121212);
+}
+.timeline-element h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.timeline-element p{
+    font-size: var(--txt-md);
+    padding: 1rem 0;
+}
+.specs table{
+    width: 100%;
+}
+.table tr td, .table tr th{
+    padding: 1rem;
+}
+
+@media screen and (max-width: 405px){
+    .container{
+        margin-top: 180px;
+        margin-bottom: 180px;
+        color: var(--primary);
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        margin-top: 200px;
+        margin-bottom: 130px;
+        color: var(--primary);
+        margin-left: 20px;
+        margin-right: 100px;
+        padding-left: 20px;
+        padding-right: 100px;
+    }
+}
+    
